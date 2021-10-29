@@ -611,6 +611,12 @@ section {
  * Contact
  */
 
+@media screen and (min-width: 700px) {
+  .contact div {
+    display: inline-block;
+  }
+}
+
 .contact p {
   color: #a8f4f1;
   text-align: left;
