@@ -623,6 +623,14 @@ section {
     list-style: none;
   }
 }
+@media screen and (max-width: 1024px) {
+  .contact div {
+    display: inline-block;
+  }
+  .contact ul {
+    list-style: none;
+  }
+}
 
 .contact ul {
   list-style: none;
