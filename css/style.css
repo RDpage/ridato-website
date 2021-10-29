@@ -567,6 +567,10 @@ section {
   color: #dcfbf9;
 }
 
+.services ul {
+  list-style: none;
+}
+
 /*
  * Data voucher
  */
@@ -615,6 +619,13 @@ section {
   .contact div {
     display: inline-block;
   }
+  .contact ul {
+    list-style: none;
+  }
+}
+
+.contact ul {
+  list-style: none;
 }
 
 .contact p {
