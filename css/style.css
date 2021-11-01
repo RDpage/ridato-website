@@ -356,7 +356,11 @@ section {
 }
 
 /* ----- About ----- */
+
 @media (max-width: 768px) {
+  .about {
+    margin: 4%;
+  }
   .about .content h1 {
     font-size: 25px;
   }
@@ -367,22 +371,26 @@ section {
     font-size: 15px;
   }
 }
+
 /* ———— service ———— */
 
 @media (max-width: 1024px) {
   .services .feture-tabs h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .services .feature-icons h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 @media (max-width: 768px) {
+  #services {
+    margin: 4%;
+  }
   .services .feture-tabs h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .services .feature-icons h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .services img.svc-hero {
     width: 100%;
@@ -392,6 +400,9 @@ section {
 
 /* ----- datavoucher ----- */
 @media (max-width: 768px) {
+  .data-voucher {
+    margin: 4%;
+  }
   .data-voucher .text-wrapper h1 {
     font-size: 25px;
   }
@@ -409,6 +420,7 @@ section {
 @media (max-width: 1280px) {
   .contact div {
     display: inline-block;
+    margin-bottom: 10%;
   }
   .contact ul {
     list-style: none;
@@ -417,6 +429,7 @@ section {
 @media (max-width: 1024px) {
   .contact div {
     display: inline-block;
+    margin-bottom: 10%;
   }
   .contact ul {
     list-style: none;
@@ -425,6 +438,7 @@ section {
 @media (max-width: 768px) {
   .contact div {
     display: inline-block;
+    margin-bottom: 10%;
   }
   .contact ul {
     list-style: none;
