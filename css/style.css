@@ -334,7 +334,7 @@ section {
     padding: 120px 0 60px;
   }
   .hero .hero-img {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 80px;
   }
   .hero .hero-img img {
@@ -349,9 +349,13 @@ section {
   .hero h2 {
     font-size: 24px;
   }
-  .hero img.img-fluid {
-    display: flex;
-    visibility: hidden;
+  .hero .hero-img {
+    /* text-align: center; */
+    margin-top: 80px;
+  }
+  .hero .hero-img img {
+    width: 80%;
+  }
   }
 }
 
@@ -446,6 +450,9 @@ section {
   .contact .row iframe {
     width: 100%;
     height: auto;
+  }
+  .contact ul li {
+    text-align: left;
   }
 }
 
